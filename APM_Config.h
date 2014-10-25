@@ -1,15 +1,7 @@
-// -*- tab-width: 4; Mode: C++; c-basic-offset: 4; indent-tabs-mode: nil -*-
-
-// Example config file. Take a look at config.h. Any term define there can be overridden by defining it here.
-
-// GPS is auto-selected
-
-//#define MAG_ORIENTATION		AP_COMPASS_COMPONENTS_DOWN_PINS_FORWARD
-//#define HIL_MODE				HIL_MODE_ATTITUDE
 
 //#define BROKEN_SLIDER		0		// 1 = yes (use Yaw to enter CLI mode)
 
-#define FRAME_CONFIG QUAD_FRAME
+        #define FRAME_CONFIG QUAD_FRAME
 	/*
 	options:
 	QUAD_FRAME
@@ -48,9 +40,6 @@
 //#define LOITER_THR			THROTTLE_MANUAL
 # define RTL_YAW 			YAW_HOLD
 
-//#define RATE_ROLL_I 	0.18
-//#define RATE_PITCH_I	0.18
-//#define MOTORS_JD880
 
 
 // agmatthews USERHOOKS
