@@ -13,8 +13,17 @@
 #include <Stream.h>
 #include <stdint.h>
 
-
-class GCS_Class_22
+///
+/// @class	GCS
+/// @brief	Class describing the interface between the APM code
+///			proper and the GCS implementation.
+///
+/// GCS' are currently implemented inside the sketch and as such have
+/// access to all global state.  The sketch should not, however, call GCS
+/// internal functions - all calls to the GCS should be routed through
+/// this interface (or functions explicitly exposed by a subclass).
+///
+class GCS_Class
 {
 public:
 
